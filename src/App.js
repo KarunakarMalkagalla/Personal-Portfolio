@@ -285,8 +285,8 @@ const App = () => {
                 title: "Modern Personal Portfolio Website",
                 description: "Developed a modern, responsive personal portfolio website, it comprehensively showcases my professional identity, technical skills, and key projects. Features intuitive navigation, detailed project showcases, and a direct contact section.",
                 tech: ["React.js", "Tailwand CSS","Firebase"],
-                github: "#",
-                live: "#"
+                github: "https://github.com/KarunakarMalkagalla/Personal-Portfolio",
+                live: "https://personal-portfolio-abf49.web.app/"
               },
             ].map((project, index) => (
               <div
@@ -407,6 +407,7 @@ const App = () => {
           <div className="mt-4 flex justify-center space-x-6">
             <a href="https://github.com/KarunakarMalkagalla" className="text-gray-400 hover:text-emerald-300 transition duration-200">GitHub</a>
             <a href="https://www.linkedin.com/in/karunakar-malkagalla-591b47318/" className="text-gray-400 hover:text-emerald-300 transition duration-200">LinkedIn</a>
+            <a href="https://leetcode.com/u/karunakarswaero/" className="text-gray-400 hover:text-emerald-300 transition duration-200">Leetcode</a>
           </div>
         </div>
       </footer>
